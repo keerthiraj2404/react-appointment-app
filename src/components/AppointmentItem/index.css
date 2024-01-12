@@ -1,0 +1,38 @@
+/* Write your CSS here */
+.appointment-item {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #b5b7c4;
+  border-radius: 25px;
+  padding: 15px;
+  width: 28%;
+  font-family: 'Roboto';
+}
+
+@media screen and (min-width: 768px) {
+  .appointment-item {
+    flex-direction: column;
+  }
+}
+
+.title-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.title-heading {
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.star-image {
+  outline: none;
+  border: none;
+  background-color: #ffffff;
+}
+
+.appointment-date {
+  color: #b5b7c4;
+  font-size: 16px;
+}
